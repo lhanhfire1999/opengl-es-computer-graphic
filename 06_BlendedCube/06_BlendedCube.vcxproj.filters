@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{de6795cb-9acc-4324-93f1-b03cbde75826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{d26f25b2-d7a6-4443-80e1-6ea41cb6d0c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="data\cat.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\gles\libGLESv2.dll" />
+    <CopyFileToFolders Include="..\gles\libEGL.dll" />
+    <CopyFileToFolders Include="data\vs.glsl">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\ngoctrinh.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\midu.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\maiphuongthuy.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\hatang.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\haho.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\fs.glsl">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="data\buiphuongnga.tga">
+      <Filter>data</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
